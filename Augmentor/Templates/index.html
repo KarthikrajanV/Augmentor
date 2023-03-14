@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Data Augmentation</title>
+</head>
+<body>
+    <h1>Data Augmentation</h1>
+    <form action="{{ url_for('augment') }}" method="POST" enctype="multipart/form-data">
+        <input type="file" name="folder" webkitdirectory mozdirectory>
+        <br><br>
+        <button type="submit">Augment Data</button>
+    </form>
+</body>
+</html>
